@@ -8,6 +8,32 @@ a{
     font-size: 15px;
 }
 
+.pasar-a-flex{
+    display: block;
+}
+
+.ubicar-final{
+display: block;
+}
+
+.separacion-articulos article{
+    width: 22% !important;
+}
+
+.separacion-articulos article:hover img{
+    box-shadow: 0px 0px 25px rgb(100, 100, 100);
+}
+
+.separacion-articulos article:hover p {
+    display: block !important;
+    color: black;
+}
+
+.descripcion{
+    display: none !important;
+  
+  }
+  
 .al-fondo2{
     font-size: 15px;
     margin-right: 5em !important;
@@ -90,7 +116,6 @@ body {
     padding: 1px;
 }
 
-
 .separacion-articulos article {
     border-top: 1px solid #ebebeb;
     /* padding: 15px; */
@@ -129,6 +154,14 @@ body {
 
 }
 
+.separacion-articulos article span{
+    transition: transform 0.5s ease 0s;
+} 
+
+.separacion-articulos article span :hover{
+    transform: rotate(90deg);
+}
+
 .precios {
     font-size: 30px;
     text-align: left;
@@ -149,6 +182,60 @@ body {
     display: inline;
     width: 70%;
 
+}
+
+.pasar-a-flex div {
+    display: flex;
+    font-size: 0.9em;
+    width: 100%;
+    padding-top: 2em;
+}
+
+.tarjeta-o-efectivo{
+    display: block !important;
+    width: 30%;
+    text-align: center;
+    color: #333;
+
+}
+
+.envio{
+    display: block !important;
+    width: 30%;
+    text-align: center;
+    color: #333;
+}
+
+.seguridad{
+    display: block !important;
+    width: 30%;
+    text-align: center;
+    color: #333;
+}
+
+.cambio-color{
+    color: blue;
+    font-size: 2em;
+    margin: 10px;
+}
+
+.cambio-color :hover{
+    color: rgb(115, 115, 214);
+
+}
+
+.ubicar-final{
+    font-size: 0.7em;
+}
+
+.ubicar-ultima-visita{
+    color: #534e4e;
+    font-weight: bolder;
+}
+
+.centrar-ofertas{
+    color: #534e4e ;
+    font-weight: bolder;
 }
 
 /* celular */
@@ -265,6 +352,14 @@ body {
         font-size: 15px;
     }
 
+    .pasar-a-flex{
+        display: none;
+    }
+
+.ubicar-final{
+    display: none;
+}
+
 }
 
 /* tablet */
@@ -315,5 +410,13 @@ body {
         width: 46%;
        
     }
+
+    .pasar-a-flex{
+        display: block;
+    }
+
+.ubicar-final{
+    display: block;
+}
 
 }

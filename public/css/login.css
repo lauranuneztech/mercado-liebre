@@ -25,6 +25,15 @@ a {
         margin-left: 3em;
     }
 
+    
+    .pasar-a-flex{
+        display: block;
+    }
+
+.ubicar-final{
+    display: block;
+}
+
 }
 
 .color-boton{
@@ -32,6 +41,10 @@ a {
     color: white;
     padding: 1.5em;
     padding-bottom: 2em;
+}
+
+.color-boton :hover{
+    color: #0022AA;
 }
 
 body {
@@ -137,6 +150,49 @@ border-color: gainsboro;
     padding: 1px;
 }
 
+.pasar-a-flex div {
+    display: flex;
+    font-size: 0.9em;
+    width: 100%;
+    padding-top: 2em;
+}
+
+.tarjeta-o-efectivo{
+    display: block !important;
+    width: 30%;
+    text-align: center;
+    color: #333;
+
+}
+
+.envio{
+    display: block !important;
+    width: 30%;
+    text-align: center;
+    color: #333;
+}
+
+.seguridad{
+    display: block !important;
+    width: 30%;
+    text-align: center;
+    color: #333;
+}
+
+.cambio-color{
+    color: blue;
+    font-size: 2em;margin: 10px;
+}
+
+.cambio-color :hover{
+    color: rgb(115, 115, 214);
+
+}
+
+.ubicar-final{
+    font-size: 0.7em;
+}
+
 /* celular */
 
 @media (min-width:361px) {
@@ -234,6 +290,14 @@ border-color: gainsboro;
     }
 
 
+    .pasar-a-flex{
+        display: none;
+    }
+
+.ubicar-final{
+    display: none;
+}
+
 }
 
 /* tablet */
@@ -270,5 +334,14 @@ border-color: gainsboro;
         display: flex;
         list-style: none;
     }
+
+
+    .pasar-a-flex{
+        display: block;
+    }
+
+.ubicar-final{
+    display: block;
+}
 
 }
