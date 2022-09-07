@@ -1,0 +1,274 @@
+/* compu */
+
+
+a {
+    text-decoration: none;
+}
+
+@media (min-width: 1200px) {
+    .al-fondo {
+        margin-left: 40em !important;
+        font-size: 15px;
+    }
+
+    .al-fondo2 {
+        font-size: 15px;
+        margin-right: 5em !important;
+        margin-left: -2em;
+    }
+
+    .tarjeta-grande {
+        margin-left: 20em !important;
+    }
+
+    .buscador {
+        margin-left: 3em;
+    }
+
+}
+
+.color-boton{
+    background-color: rgb(52, 52, 211);
+    color: white;
+    padding: 1.5em;
+    padding-bottom: 2em;
+}
+
+body {
+    margin: 0;
+}
+
+form label{
+    display: block;
+}
+
+.separar-perfil{
+    display: flex;
+}
+
+.separar-perfil label{
+    margin-left: 1em;
+}
+
+.separar-img-usuario{
+    margin-top: 1em;
+    margin-bottom: 1em;
+}
+
+.ultimos-botones input{
+    display: block;
+    margin: 1em;
+    width: 40%;
+    margin-left: auto;
+    margin-right: auto;
+    /* margin-bottom: 1em; */
+}
+
+form{
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 1.5em;
+    background-color: gainsboro;
+    padding-left: 4em;
+    padding-right: 4em;
+    margin-top: 2em;
+    border-radius: 0.5em;
+    padding-bottom: 1em;
+}
+
+
+form input{
+width: 100%;
+height: 2em;
+border-radius: 0.5em;
+margin-top: 1em;
+margin-bottom: 1em;
+margin-left: auto;
+margin-right: auto;
+border-color: gainsboro;
+}
+
+.estetica-intereses input{
+     width: 60%;
+}
+
+.solo-compu ul {
+    display: inline;
+}
+
+.solo-compu {
+    font-size: 13px;
+}
+
+.solo-compu a {
+    color: black;
+}
+
+.separar {
+    margin: 0.5em;
+
+
+}
+
+.tarjeta-grande {
+    margin-left: 2em;
+    margin-top: -0.2em;
+}
+
+.fondo-principal {
+    background-color: yellow;
+    padding-left: 2em;
+    padding-top: 1em;
+}
+
+.al-fondo2 {
+    margin-left: -4em;
+}
+
+.buscador {
+    padding-left: 2em !important;
+}
+
+.boton-buscador {
+    border: 0.1em solid grey;
+    background-color: #ebebeb;
+    font-size: 15px;
+    padding: 1px;
+}
+
+/* celular */
+
+@media (min-width:361px) {
+    .unir-logo-buscador {
+        display: flex;
+
+    }
+
+    .tarjeta-mobile {
+        display: block;
+        text-align: center;
+    }
+
+    .tarjeta-grande {
+        display: none;
+    }
+
+    .logo {
+        width: 25%;
+        margin-left: -0.8em;
+        padding: -0.2em;
+
+    }
+
+    .buscador {
+        /* width: 40%; */
+        display: flex;
+        height: 25px;
+        padding: 0.5em;
+        border-radius: 1px;
+
+    }
+
+    #hamnav {
+        display: block;
+    }
+
+    #hamitens a {
+        box-sizing: border-box;
+        display: block;
+        width: 100%;
+        border-top: 1px solid #333;
+        color: white;
+    }
+
+    #hamnav label {
+        display: inline-block;
+        color: white;
+        background: blue;
+        padding: 5px;
+        padding-left: 0.7em;
+        padding-right: 0.7em;
+        border-radius: 0.3em;
+        margin-left: 40%;
+        margin-bottom: 0.5em;
+    }
+
+    #hamitens {
+        display: none;
+    }
+
+    #hamnav input:checked~#hamitens {
+        display: block;
+    }
+
+    #hamnav {
+        width: 100%;
+
+    }
+
+    #hamitens a {
+        flex-grow: 1;
+        flex-basis: 0;
+        padding: 10px;
+        color: white;
+        text-decoration: none;
+        text-align: center;
+    }
+
+    #hamitens a:hover {
+        background: orangered;
+    }
+
+    #hamnav #hamburger {
+        display: none;
+    }
+
+    .home-banner {
+        display: block;
+        width: 100%;
+    }
+
+    .solo-compu {
+        display: none;
+    }
+
+
+}
+
+/* tablet */
+
+@media (min-width:769px) {
+    #hamnav {
+        display: none;
+    }
+
+    .home-banner {
+        margin-top: -2em;
+    }
+
+    .al-fondo {
+        margin-left: 13em;
+    }
+
+    .solo-compu {
+        padding-bottom: 1.5em;
+        display: flex;
+        margin-left: -0.5em;
+
+    }
+
+    .tarjeta-grande {
+        display: block;
+    }
+
+    .tarjeta-mobile {
+        display: none;
+    }
+
+    .solo-compu ul {
+        display: flex;
+        list-style: none;
+    }
+
+}
